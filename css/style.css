@@ -1,0 +1,139 @@
+
+
+.container-topo {
+    display: grid;
+    height: 25vh;
+    background: black;
+    grid-template-columns: 2.5fr 4.5fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.logo1 {
+    flex-basis:auto;
+}
+
+.menu-topo {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-topo ul {
+    padding-top:15px;
+}
+
+.menu-topo ul li {
+    display: inline;
+    text-transform: uppercase;
+    line-height: 2rem;
+    padding: 2.5px;
+    text-decoration: none;
+   
+    
+}
+
+.menu-topo ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    
+}
+
+.container-corpo {
+
+    display: grid;
+    height: 100vh;
+    background:;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items:stretch;
+    gap: 5px;
+  
+
+}
+
+.titulo {
+    grid-column: span 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-column: span 2;
+    flex-basis: 100px;
+
+}
+.letra2 {
+    text-align: center;
+    align-items: center;
+    text-transform: capitalize;
+    color: blue;
+    font-weight: bold;
+    border: 5px solid grey;
+    line-height: 55px;
+}
+
+.letra3 {
+    text-align: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    line-height: 55px;
+    color: chocolate;
+    border: 5px solid grey;
+}
+
+
+.lateral {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.lista1 li a {
+    text-transform: none;
+    text-decoration: none;
+
+}
+
+.container-rodape {
+    display: grid;
+    height: 25vh;
+    background: black;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
